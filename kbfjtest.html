@@ -1,0 +1,506 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>【带卡】恐怖房间 01</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-mac'><h4><a name="带卡恐怖房间" class="md-header-anchor"></a><span>【带卡】恐怖房间</span></h4><p><span>现pa正剧向。将军土×文官卡</span></p><p><span>Crossover: Chernobyl (HBO)  没看过原作不影响观看。</span></p><p><span>不要轻易对角色下判断，也不要猜测结局，走向与原著可能不同。</span></p><p><span>中后期 D/S 设定预警。Power &amp; Sex. 不喜勿入。</span></p><br><br><br><br><h5><a name="01-暗室" class="md-header-anchor"></a><span>01 暗室</span></h5><br><p><span>铁青色的会议室，条桌两侧十几位官员已干等了快一个小时。咳嗽声不时响起。有人抬手看表，有人臀部在真皮座椅上不停磨蹭。但没人企图询问，也没有人胆敢离开房间。</span></p><p><span>士兵护在房门两边，背手直立。卫兵最多不过二十岁，面孔上看，还是个稚气未脱的青年。宇智波带土从兜里磕出根烟来叼到嘴上。霎时间十几双眼睛全都聚了过来——打火机开合的脆响是几十分钟里唯一一个新鲜的声音。</span></p><p><span>长气吁出，烟雾缭绕。房间里纸页翻飞，大家纷纷低下头去，摆弄眼前已被翻烂的文件。直到白雾几近散去，会议室里才第一次有人打破沉默。</span></p><br><p><span>“宇智波将军。您介意把烟熄了么？我呼吸系统不大好。”</span></p><p><span>这声音听起来有些陌生。带土用余光向上瞄着——西装端正，清瘦身材，眉眼清淡。典型文官长相。</span></p><p><span>桌上开始有人交头接耳，眼神遮掩着瞟向文官的方向。半晌过后，带土在众人议论中哼笑一声，没有应答。无名指掸了掸烟灰，重新将烟头叼回嘴上。</span></p><p><span>“将军——”</span></p><p><span>“你是哪个部门的。”带土抖落着纸张。</span></p><p><span>“木叶中央研究院，核机电组。”</span></p><p><span>“哈！”带土尖声笑道，“——水门的走狗。”</span></p><p><span>桌上登时一片唏嘘。将军双腿交叠，眼皮都没抬起一下。</span></p><p><span>男人亦枉顾他人打量，不卑不亢地对了回去，“将军，我是来帮忙的。”</span></p><p><span>“帮忙？”带土将文件移到一边，“我问你，神树是国防核心项目对否？”</span></p><p><span>“对的。”</span></p><p><span>“设立至今已有三十余年对否？”</span></p><p><span>“不错。”</span></p><p><span>“既然帮忙都讲究个你来我往…… 那告诉我，教授。五国第三次大战的时候，你们研发的毁灭性武器呢？现在出乱子知道来要人要钱——当年我们只有土炮步枪，堆人墙枉死沙场的时候，您和波风上将人又在哪里？”</span></p><p><span>“火之国三千万条牺牲的人命，一千万将士，两千万无辜的百姓，找谁来赔呢？”</span></p><p><span>宇智波带土语气平静，脸上甚至还带点不算恶意的微笑。银发男人缄口不言。似乎只是呆坐原处供人观赏取笑。但在两人目光短暂交错间，带土却发现对方眉宇间并无一丝赧色。相反，他像是一寸寸地审视着他面目上的伤疤，眼里只有流溢不尽的悲悯。</span></p><p><span>宇智波带土皱了眉头，被这样同情的眼神盯视着，他感觉受到了冒犯。</span></p><br><p><span>带土刚要开口，铁门便开闸了。闲言碎语戛然而止。两排官员应声起立，挺背直腰。士兵护卫两侧，木村团藏将人缓缓推至主位。瘫坐的老者随轮椅行进身体摇摇晃晃，皮肤如枯叶般裹在骨头上，像是个随时要散架的人。</span></p><br><p><span>“参见大统领。”</span></p><p><span>“——参见大统领！”</span></p><br><p><span>众人齐声高喝，下巴上扬，目不斜视。大统领耷拉着脑袋，嘴唇开翕着，嗓子里言语模糊不清。没人敢贸然下座。直到立于后方的暗部首领发话后，大家才审慎地重新落回到位置上。</span></p><p><span>一时间纸页翻飞。</span></p><p><span>卡卡西瞥到宇智波跟前的痰盂里，灭着一根才抽了一口的残烟。</span></p><br><p><span>24小时前，位于火之国边境的大筒木核机电站发生了火灾。</span></p><p><span>正如在座官员所熟知的，“核技术”源于木叶南贺神社中古老的“神树遗迹”。上世纪末的研究发现了神树种子，即所谓的“核”，蕴含着巨大的能源潜力。经三十年的开发，如今这项技术已达到成熟的商用标准，每天通过近二十余所核电站，为火之国无数家庭和工厂输送取之不尽的廉价动力。而由此引发的电力革命，也成为第三次五国战争后木叶迅速崛起的一大引擎。</span></p><p><span>但这项技术也并非完美无缺。作为来源不明的上古神物，死“核”被激活时的衍生波，会对人体造成致命伤害。</span></p><br><p><span>“……目前火势已初步稳定下来。至于核泄露，我被告知现场测量数据不超过3.6伦琴。”能源署长秋道报告，“目前西北片区已紧急抽调大量消防景力。由研究院支持，一只专业的化学公害处理小队亦已到达现场。整体事态还是十分可控的。”</span></p><p><span>“他国反应呢？”</span></p><p><span>“毫不知情。”山中说道，“至少我并未获知任何对我方不利的情报。”</span></p><p><span>“很好。”团藏沉吟道，“看来以诸君之恪尽职守，我木叶大可高枕无忧了。”</span></p><p><span>众人暗自松了口气，将笔噼里啪啦地掷到桌上。会议室松弛下来，大家整了整衣领，等待最后一句散会的口谕。目光寄居在房间最深处，众望所至的老者仍呆钝地看向桌角——这位把从十九到九十岁，总共七十年峥嵘意气毫无保留献给了国家的老者，此时暮年将至，只剩了具疲惫的骨架。</span></p><p><span>猿飞日斩徒然张开嘴，岁月磨损了他的喉咙和舌头，连段像样的字句也吐不出来。在为首领留了足够的面子和足够长的等待时间后，团藏终于将目光收回，</span></p><p><span>“如果没什么事的话，就散……”</span></p><br><p><span>“——不行！”一人蓦然开口，“我们还不能散会……”</span></p><p><span>全桌人刚欲直起身来，此刻除仍耷拉着头颅的大统领外，其余人目光全汇聚在声音的源头上。</span></p><p><span>“请问您……”</span></p><p><span>“我认为这份报告……秋道署长的报告，是有问题的。”</span></p><p><span>会议室雅雀无声。旗木卡卡西喉咙发涩。在他面前的是帝国十九名最为显赫的官员，三十八只眼睛紧紧耙抓在他身上，令人毛骨悚然。</span></p><p>&nbsp;</p><p><span>“不好意思，不晓得我是不是听错了。您是在质疑能源署长吗？”</span></p><p><span>“我没有冒犯的意思，”旗木卡卡西鼓足勇气，“我通篇阅读了现场记录，里面很多细节非常耐人寻味……”</span></p><p><span>“要是你有疑虑，可以会后……”</span></p><p><span>“我怀疑事情远非这么简单，”他坚定地打断道，“3.6伦琴不可能造成这么严重的现象。核事故分秒必争。事不宜迟，恳请组织立即详查。”</span></p><p><span>“别散布恐慌，先生，我认为我们已经调查的很详细了。”</span></p><p><span>“可如果现场记录是真的——火灾上方的衍射光，消防人员的呕吐、红斑，现场的黑色遗留物……这根本不可能只是一场核泄漏——而是反应堆爆炸！”</span></p><p><span>卡卡西从桌上窜起来，掌根几乎把纸张碾碎，</span></p><p><span>“上百万人会因此丧命的！！”</span></p><br><p><span>对方不再接话。十几名官员面面相觑。</span></p><p><span>秋道丁座的脸色被吓得惨白。</span></p><br><p><span>旁边传来一阵纸页翻腾的脆响——在死寂一般的会议里，这样的声音显得格外扎耳。</span></p><p><span>宇智波带土是唯一一个沉坐在椅子上尚未起身的人。</span></p><p><span>“旗木……”他翻着与会名单，“卡卡西处长……”</span></p><p><span>“</span><strong><span>教授。</span></strong><span>”他纠正道，“如果您不介意的话。”</span></p><p><span>“……教授。”带土将目光转回，不急不缓地开口，“碰巧，被派去收拾烂摊的领队与我有些旧交，所以我今早特地打听了一下。”</span></p><p>&nbsp;</p><p><span>“——据我所知，反应堆内设有保险装置。种子一旦升温膨胀会自动碰到绝缘棒，只会解体，不可能爆炸。”</span></p><p><span>“我说的对吗？”</span></p><p>&nbsp;</p><p><span>卡卡西回过头，两人视线再度相遇。</span></p><p><span>“或许内部发生了一些我们不知道的反应。”</span></p><p><span>“我被告知理论上这是不可能的事情。”</span></p><p><span>“可救灾现场发现了石墨。</span><strong><span>除反应堆外，电站没有任何一个地方含有石墨</span></strong><span>。”</span></p><p><span>“测量仪的指数只有3.6伦琴……”</span></p><p><span>“碰巧，这也是低精度测量仪的最大限值。”</span></p><p><span>“难道我国最先进的大筒木研究所，会仅仅只有一个低精度测量仪吗？”</span></p><p><span>“正因为高精度器械距离反应堆很近。一旦爆炸，他们才只能使用低精度测量仪。”</span></p><p><span>“旗木教授，您似乎很喜欢用常理之外的思路对事情加以解读。”带土一笑，“所有科学家都像您这样思维跳跃吗？”</span></p><p><span>“常理之外？您对 ‘常理’ 的界定真是让我大开眼界。”卡卡西讥诮道，“或许将军少用点肌肉多读几年书，就能跟得上我 &#39;思维跳跃&#39; 的步伐了。”</span></p><p>&nbsp;</p><p><span>“——旗木卡卡西，注意你的言辞！！”</span></p><p>&nbsp;</p><p><span>带土拉住旁边叫骂的同僚，脸上并无一点愠色，“那既然您读书多，还请您对我这个吊车尾的不吝赐教……”</span></p><p><span>“——既然每个研究所都设有绝缘棒，那反应堆为什么会爆炸呢？”</span></p><p>&nbsp;</p><p><span>“……”</span></p><p><span>卡卡西双唇紧闭，沉吟半晌后答道，</span></p><p><span>“科学是一个动态发展的进程，并不是所有现象都能用现有理论来回答的。”</span></p><p><span>带土把后背靠到椅子上，冷笑在嘴边轻轻滑动，不再说话了。</span></p><p><span>卡卡西对他的嘲讽不予理会，直接转身面向最高领导，“无论如何，鉴于我是核物理领域的唯一的参会人士，我以科学界的名义，向各位领导申请立即重启调查！”</span></p><p><span>带土淡淡开口，“我觉得没有这个必要。”</span></p><p><span>“必须马上撤离居民！核辐射会造成新生儿先天性畸形、甲状腺癌症、肾脏心脏衰竭……甚至等种子随风扩散，污染液下沉至地下水，整个火之国的农业和饮水系统就全完了！”</span></p><p><span>“不要危言耸听。我不管你靠什么手段讨了水门的欢心才爬上这个位置的……但像你这种基础理论都不扎实的所谓 ‘优等生’ ，根本没资格代表科学界做出断言。”</span></p><p><span>“我不知道您和院长在他生前有什么过节，但现在不是窝里耍横的时候。哪怕您不在乎我，不在乎波风上将，也请想想百姓，想想您救下的已解甲归田的老兵，想想那一千万名烈士尚存于世的妻子儿女！”</span></p><p><span>“宇智波将军，你可以不信任我。”他直视着他的眼睛，一字一句地说道，“但哪怕另寻他人，我也恳求您务必要咨询下学界意见！我相信把这份报告递给任何一位核物理学家，他都会和我作出一样的判断。”</span></p><p><span>“——只要他还存有一点良心！”</span></p><p><span>“……”</span></p><p><span>“我坚持我的看法。”卡卡西毫不犹豫地将会牌摘下，扣在桌上，“如果重启调查后结果确实证明无事发生，我愿意主动辞职，削除党.籍，并接受一切可能的处罚！”</span></p><p><span>“——你这是在威胁大统领吗？”带土冷言，环顾四周森然而立的同事，“我想不需要我提醒你这种行为的幼稚。因为你所在的木叶，最不怕的就是威胁。”</span></p><br><p><span>“那是你们政客的事情。”</span></p><p><span>卡卡西目不斜视，昂然而立。</span></p><p><span>“可我是一名科学家。”</span></p><br><p><span>“——</span><strong><span>我只在乎真相</span></strong><span>。”</span></p><br><br><p><span>全体默然。或许因为震撼，又或许只是因为词穷，所有嘲笑刹那间止息了。</span></p><p><span>带土嘴角的轻蔑渐渐收敛。在刚刚共处一室的一个多小时里，他第一次仰首，正眼打量着眼前莽撞的年轻人。</span></p><br><p><span>所有目光都转向团藏。这位十数年来伴随统领的左右手思考了许久，此刻微张开松散眼皮，</span></p><p><span>“既然旗木教授如此英勇无畏，”他重新阖上眼，语气深沉，“就劳烦您亲自走一趟，去探查现场的真实情况咯。”</span></p><p><span>卡卡西瞳孔一颤，“长官，我……”</span></p><p><span>“还有，宇智波将军。”团藏指挥道，“你也跟着一起去。”</span></p><p><span>带土怔了半晌，“您说什么？”</span></p><p><span>“你既然对旗木教授如此不信任，不如两人结对同去，也好眼见为实。”</span></p><p><span>“可是……”</span></p><p><span>“不然呢？”团藏眼里射出一丝寒光，“难道区区一位研究所的文官，使得动你手下那群悍将吗？”</span></p><p><span>带土沉默片刻，牙齿紧咬，太阳穴上青筋似乎有一瞬间暴起，随即又很快消了下去。</span></p><p><span>“得令。”他不大自然地应道。</span></p><br><p><span>团藏继而俯首——</span></p><p><span>“那，大统领。您看这样合适吗？”</span></p><br><p><span>猿飞微微动了下脖子。这位一生三度奔赴沙场，带领人民跨过劫掠与饥荒，一步步将木叶推向五国新时代顶峰的领袖，如今已经老得眼睛都睁不开了。</span></p><p><span>卡卡西甚至怀疑他是否能听清他们在说什么。</span></p><p><span>所有人都静默地等待着。衰疲的喘息在房间里流动、放大。紧接着，几乎是凭借一种胸口间残留的本能意志，这位老英雄支撑着那趋于死灭的躯体，把手颤巍巍地定举到额头上，</span></p><p><span>“为了木叶……”</span></p><br><p><span>全体人员同时起立，捶胸高呼：</span></p><p><span>“——为了木叶！！”</span></p><br><br><br><p><span>议会厅里人员鱼贯而出。旗木卡卡西立在门口。阳光强劲地劈射下来。万木吐翠，花朵斗艳。</span></p><p><span>他要等的人直到半小时后才姗姗来迟。宇智波带土看向门口逆光遥望远方的身影，迟疑片刻，还是走了过去。他划了根火柴，俯身将火焰喂到香烟里去。烟粒在空气中晕散开来。这回卡卡西没再抱怨。只是望着眼前空无一人的阅兵场，淡淡地开口发问，</span></p><p><span>“什么时候走。”</span></p><p><span>带土不急不缓地将烟吁出，“马上。”</span></p><p><span>他转过头，“马上？”</span></p><p><span>“您有家人吗？”</span></p><p><span>“没有。”</span></p><p><span>“那不就得了。”带土眯觑着眼，“大老爷们儿，来去无牵无挂的，还掂记什么呢。”</span></p><p><span>卡卡西没应。只是双手搭着小棚子，稍稍挡着眼上刺人的阳光。带土看着他脸上几近惨白的脸色，不由得开口打趣道，</span></p><p><span>“怎么，现在就怕了？这还没到战场呢。”</span></p><p><span>“话别说的太早，将军。”卡卡西掀动嘴角，“无知者才会无畏。”</span></p><p><span>带土不以为然，长长吐了口烟，“恕我冒昧，咱们两个中无知的还不一定是哪一个呢。”</span></p><p><span>“是吗？”</span></p><p><span>“教授，您见过战场吗？”</span></p><p><span>卡卡西一笑，“想拿您的军龄来压我吗？”</span></p><p><span>“我不该吗？”带土答道。</span></p><p><span>“将军，这可不是您所见过的那类战争。”</span></p><p><span>“相反，我觉得这回和我之前经历过的任何一场战争没有任何不同。”</span></p><p><span>“所以说嘛，”他自嘲地耸了耸肩，“正因为上面的人都和您一样愚蠢，我们两个才需要到这里来啊。”</span></p><p><span>带土被逗笑了。无名指一弹，甩下几粒烟灰。</span></p><p><span>“你知道嘛，”他释然般轻快地说道，“我好久没见过像你这样狂妄自大的人了。”</span></p><p><span>“您是指不对您曲意奉承的人吗？看来军队对文化水平的宽容度很高啊。”</span></p><p><span>“别这么刻薄，教授。”他回头看着卡卡西，“我没有恶意。”</span></p><p><span>“那您想表达什么？”</span></p><br><p><span>“我喜欢你。”</span></p><br><p><span>狂风吹过。直升机桨叶拍打着空气，越过议会大厦朝阅兵场停去。</span></p><p><span>乱流打散了指缝间的白烟。卡卡西眼睛有一瞬的失焦。他望着带土面带笑意，顶着飞沙走石气流眺望远方，将雪茄重新咬回嘴角，自己久久不能回神。</span></p><br><p><span>“……您说什么？”</span></p><p><span>“我说，我很欣赏你。”</span></p><p><span>带土转身，重重地拍着他的肩胛。迈下台阶，迎风向直升机走去。</span></p><br><p><span>“所以，别让我失望。”</span></p><br><br><br><p><span>-</span></p><br><p><span>“将军……”</span></p><p><span>“不必寒暄。”带土打断道，“我只想知道，现场到底进展如何。”</span></p><p><span>“……火势仍未熄灭。应该说，经过二十多小时的抢救，没有一点减小的势头……”</span></p><p><span>“为什么？！您之前跟我说，研究所确认爆炸是外部器械所致……”</span></p><p><span>“具体我也不清楚。但我怀疑着火的东西不是普通器械——起码，用水和二氧化碳是无法浇灭的。”</span></p><p><span>“……”</span></p><p><span>“以及我想请求调动其他地区的支持，仅凭西北片区的支援肯定有些不够了……”对方欲言又止，“您知道……”</span></p><p><span>“好的，我尽量联系。”带土没让他说完。</span></p><p><span>“还有一件事，虽说我可能并不该问……”</span></p><p><span>“……您说。”</span></p><p><span>“木叶……大统领知道这里发生的事了没有？”对方声调不由自主地提高，“我手下士兵不知道为什么，一个接一个地送去医院，我从未见过如此奇怪的伤势……”</span></p><p><span>“木叶已经在着手处理了。”</span></p><p><span>“我总感觉哪里不对……”对方语气急促，“部队已经换掉七成的人了，再这样下去，</span><strong><span>整个宇智波</span></strong><span>……”</span></p><p><span>“我知道！！这种事不用你来提醒！！”</span></p><br><p><span>他怒不可遏的大叫，声音震动了整个走廊。接线员被吓坏了，圆珠笔滚落到地上。</span></p><br><p><span>“我知道……对不起，”宇智波带土捏着山根：“我刚才……”</span></p><p><span>“不，将军。”电话对面传来一阵刺耳的叹气声，“是我失言了……”</span></p><p><span>“我过两天……不。今天，今天我就会过去一趟。在那之前，你们务必想办法撑住……”</span></p><p><span>“中央……”对方尝试着探问，“中央，要您亲自过来吗？”</span></p><p><span>电话里出现半晌空档，两人都没再说话。</span></p><p><span>“……我明白了。”对方解事地开口，“谢谢您，将军。”</span></p><p><span>带土抿着嘴。</span></p><p><span>“在那边……多注意安全。”</span></p><p><span>“……富岳叔叔。”</span></p><p><span>“嗯，”对方柔声笑道，“您也是。”</span></p><br><p><span>-</span></p><br><br><br><p><span>高空寒风凛冽。跨越群山大河的层层阻隔，横穿大陆，窗外举目间尽是眺望不尽的荒野。</span></p><p><span>这里是文明世界的边缘。再往前去，便只有围绕大筒木零星的小镇村庄。</span></p><br><p><span>听到飞行员行将到达的报告，宇智波带土将手置于窗户玻璃上，开口问道，</span></p><p><span>“教授，能否给我解释下核反应的运作原理？”</span></p><p><span>卡卡西回过头，注视着他曾在荒野间被晒得黝黑的肌肤。烈日把他面孔上坑坑洼洼的伤疤雕刻得异常明显。</span></p><p><span>“比如，报告上所说的3.6伦琴，是个什么概念？”</span></p><p><span>带土将目光转回窗内。卡卡西注视着对方，片刻后从西服掏出了一只圆珠笔。</span></p><p><span>“您做过胸透吗？”</span></p><p><span>“……”</span></p><p><span>“体检时，人体会接受大概十几秒钟的辐射。通常，医生会拒绝短期为患者多次体检，对免疫低下或细胞分裂活跃的儿童，辐射会造成机体细胞受损产生癌症病灶……”</span></p><p><span>“所以，这和伦琴有什么关系？”他不想听这些卖弄。</span></p><p><span>“</span><strong><span>3.6伦琴，相当于400倍胸透的辐射量</span></strong><span>。”卡卡西解释道，“而且没有时间限制。这样的辐射会一直飘散在大地上。在你吃饭、谈话、睡觉的时候一刻不停地照射着。直到你死去后一百多年，才会消失。”</span></p><p><span>带土眯眼，“那既然这么严重，为什么研究所上交的报告里说，火灾是真实可控的？”</span></p><p><span>“将军，事情不能这么想。”</span></p><p><span>卡卡西莞尔，</span></p><p><span>“研究所所长在体制内，是有级别的呀。”</span></p><br><br><p><span>机舱内，空气惨淡凝重。飞机逐渐下降，从座位上可以俯视到研究所外围。救护车接踵而至。消防员呕吐着摔倒，脸部烧烂的士兵呻吟着躺在担架上，首尾相接，在马路上绵延连成一排。</span></p><p><span>没有人身着防护服。</span></p><p><span>“我们到了。”</span></p><p><span>但不需飞行员的提醒，两位也知道位置将近了——只消把目光一抬，便能看到楼顶重重的黑色烟嶂。火焰撕裂了钢筋，向天空翻涌咆哮着。石块不时喷薄而下。已经不需多余的验证了。黑色光滑的碎块，即使军队出身的带土也能认得——</span></p><p><span>这是</span><strong><span>石墨</span></strong><span>。</span></p><br><p><span>“他们都做了什么……”</span></p><p><span>卡卡西呆在座位上，望着炸开的反应堆上不息的火焰。带土看着教授似是已失去了知觉，转而大声对飞行员下令道：</span></p><p><span>“往前飞！去探查现场的具体状况。”</span></p><p><span>“等等……你要干什么？”卡卡西反应过来，“不行！”</span></p><p><span>“飞到建筑上空去。”将军没有理他。</span></p><p><span>“你晓不晓得什么叫核反应堆？如果距离太近我们不出一周就会没命！会死人的！”</span></p><p><span>“我不在乎。”带土向驾驶舱大吼，“前进。”</span></p><p><span>“损伤完全可以通过科学推导得来……你这是让我们毫无价值的送命！”</span></p><p><span>“放屁！”带土破口大骂，“我是个军人，是不是白送命不需要你来教——看看你们的 ‘科学’ 捅出了多大的篓子！战场上想减少伤亡，可不是靠什么狗屁算式，我只相信自己的眼睛！”</span></p><p><span>“将军！”</span></p><p><span>“前进！”</span></p><p><span>“宇智波带土！”</span></p><p><span>“——放肆，你好大的胆子！！”</span></p><p><span>细长的指节暴出青筋，卡卡西欺身上前，死死压住对方椅座。两人顽固地对视着，谁也不肯低头。</span></p><p><span>“放手。”</span></p><p><span>卡卡西沉吟半晌，面色愀然，</span></p><p><span>“我只是想要保护你。”</span></p><p><span>“</span><strong><span>而我有一支军队要保护。</span></strong><span>”</span></p><p><span>宇智波带土拉开了保险丝——枪管抵在教授额头前一寸处，扳机已经扣下一半。</span></p><p><span>“放手。”他无情地开口。</span></p><p>&nbsp;</p><p><span>可旗木卡卡西不为所动。</span></p><p><span>这位清瘦的文官握住了枪管，直接拽到了自己的眉心上，</span></p><p><span>“我不在乎什么军队，”他坚定地望着他的眼睛，“现在，在这架飞机上，</span><strong><span>我只在乎你。</span></strong><span>”</span></p><p><span>他轻而易举地卸掉了将军手上的武装。</span></p><p><span>“黑烟外光晕是空气离子化的结果，”卡卡西松开他的椅座，“对损失状况我已经有所预估。您没有必要做这种愚蠢的牺牲。”</span></p><p><span>带土紧睨着眼前的科学家，“我凭什么相信你的判断？”</span></p><p><span>“我没有叫您相信我的判断，”他说道，“——您只需要相信自己的直觉。”</span></p><p><span>卡卡西将胸口的衣领整好。</span></p><p><span>“或许您批评我自大并没有错，但请相信这种狂妄并非毫无理由——不管之前遇到的科研人士让您产生了多大的偏见，我和他们都有所不同。专业方面，您尽可依赖于我。”</span></p><p><span>他将枪支交还于他手上，</span></p><p><span>“</span><strong><span>我不会让您失望的。</span></strong><span>”</span></p><br><br><br><p><span>飞机落地。门打开时，烟尘和呕吐的酸腐味扑面而来。宇智波带土全然不顾螺旋桨还在转动，直接跳下飞机。迎接两位中央人士的是大筒木研究所全体高层。而旗木卡卡西也的确证明了自己的实力。仅仅五分钟的对话，脆弱的谎言便被拆解得一点不剩——又是一桩并不罕见的管理丑闻。</span></p><p><span>但似乎一切都为时已晚。绿衣士兵拖走了那位原本要高升去木叶的所长。所有人都在原地等待随直升机一起降落测量仪——这是整个火之国精度阈值最高的机械，原本存于木叶中央研究院。</span></p><p><span>宇智波带土在现场踱了两转。卡卡西静默地立在原地眺望远方，脸上防护口罩戴得严严实实。整整半个小时，灾前指挥部无人开口。直到地平线上出现一个黑点，巨大的钢车从浓烟中缓缓走来。带土等不及，直接快步迎了上去。队伍稀稀拉拉跟着将军与检测部队汇合。</span></p><p><span>“怎么样？”</span></p><p><span>带土语气急切。然而领队显得比将军沉着很多，摘下帽子的动作不紧不慢，露出一张惨然发灰的脸。</span></p><p><span>“结果出来了吗？”带土再一次发问。</span></p><p><span>“指数不是 3.6 伦琴。”</span></p><p><span>富岳将帽子塞在腋下，</span></p><br><p><span>“是 </span><strong><span>1600</span></strong><span> 伦琴。”</span></p><br><br><br><p><span>四月，江河冰雪消融，湿气从土壤中渗出。这是播种的季节。不远处的村庄里田野交斜。放养的牲畜散落着，宛如白色星辰掉落大地。</span></p><p><span>然而灾难正悄悄在麦田里生根发芽。火焰嚣张地生长，被熏黑的高墙吐着火焰，宛如一具高企的木棺。</span></p><br><p><span>“我们该怎么办？”</span></p><p><span>“你不明白，这已经不是人为可以收拾的灾难了……”卡卡西呆立在原地，“</span><strong><span>我们已经身处地狱了</span></strong><span>。”</span></p><p><span>“老天爷！告诉我怎么扑灭大火，”带土疯狂地叫骂，“不然我现在就让旁边两个大兵把你丢到地狱里去！”</span></p><p><span>“硼。把硼和沙子混合，用直升机撒到反应堆上，或许……”</span></p><p><span>“多少硼，多少沙子？”</span></p><p><span>“我不知道，5000吨？或许更多，空中投掷大多数会迷失目标……”</span></p><p><span>“好了，你可以闭嘴了。”他拽着他的胳膊，“现在过去，那边有个小破屋，看到了没？让你的算式排上用场。今晚10点，我要看到准确的数据！”</span></p><p><span>卡卡西回头看向带土的背影，“你要去哪儿？”</span></p><p><span>“——去他妈给你搞5000吨的硼！”</span></p><br><p><span>指挥部铁门被摔上。乌云遮天蔽日。旁边马路上，满堆着担架的救护车一辆接一辆地驶过，士兵们顶着被煎沸的皮肤哭嚎呻吟着，哀鸿遍野。有人在胸前划着十字祈祷。而富岳只是从防护服中褪下，单纯遥望着远方滔天的火舌。指挥部中传来一阵野兽般的狂嗥。宇智波带土掰断了话筒，将电话碎片重重地摔在铁门上。卡卡西把口罩摘了下来，橡皮筋搭在脆弱的指尖上，木然凝视着天空。</span></p><br><p><span>“</span><strong><span>我们都要死了。</span></strong><span>”</span></p><br><br><br><p><strong><span>tbc</span></strong></p><br><br><br><br><p><strong><span>Note</span></strong></p><ol start='' ><li><span>应该是本文最无聊的一章，写得稀烂。下章进入高潮情节。</span></li><li><span>技术方面bug肯定有，求各位老大别太较真（胆小</span></li><li><span>进展不一定与原著相同，不到最后一章不要猜测结局。</span></li></ol><br></div>
+</body>
+</html>
