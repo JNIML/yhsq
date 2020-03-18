@@ -16,4 +16,4 @@
 
 ,
 
-[点我](https://github.com/JNIML/yhsq/blob/master/03%20飞蛾.md)
+[点我](https://baljck.wordpress.com/2020/03/08/%e3%80%90%e5%b8%a6%e5%8d%a1%e3%80%91%e6%81%90%e6%80%96%e6%88%bf%e9%97%b4-03-%e9%a3%9e%e8%9b%be/)
